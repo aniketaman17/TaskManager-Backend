@@ -13,7 +13,7 @@ const sendMail = (email, subject, title, description) => {
     });
 
     var mailOptions = {
-        from: 'alok.yadav6000@gmail.com',
+        from: 'aniketaman18@gmail.com',
         to: email,
         subject: subject,
         html:`<h1>Task added successfully</h1><h2>Title: ${title}</h2><h3>Description: ${description}</h3>`
